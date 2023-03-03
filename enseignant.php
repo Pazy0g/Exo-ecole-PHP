@@ -8,7 +8,7 @@ class Enseignant extends Personne
 
     public function getEtatCivil()
     {
-       return $this->nom . $this->prenom . $this->adresse . $this->matiere;
+        return $this->nom . $this->prenom . $this->adresse . $this->matiere;
     }
     public function setMatiere($matiere)
     {
